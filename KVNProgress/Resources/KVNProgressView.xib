@@ -25,7 +25,7 @@
                         <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Loading..." textAlignment="center" lineBreakMode="clip" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="280" translatesAutoresizingMaskIntoConstraints="NO" id="gXU-1y-b5M">
                             <rect key="frame" x="20" y="144" width="280" height="21"/>
                             <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
-                            <accessibility key="accessibilityConfiguration" identifier="KVNProgressStatusLabel"/>
+                            <accessibility key="accessibilityConfiguration" hint="KVNProgressStatusLabel" identifier="KVNProgressStatusLabel" label="KVNProgressStatusLabel"/>
                             <constraints>
                                 <constraint firstAttribute="height" constant="21" id="V0y-U4-QII"/>
                             </constraints>

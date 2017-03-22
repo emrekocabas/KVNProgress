@@ -396,7 +396,8 @@ static KVNProgressConfiguration *configuration;
 	self.backgroundType = backgroundType;
 	self.fullScreen = fullScreen;
 	
-	self.accessibilityValue = @"displayed";
+	self.accessibilityValue = status;
+	self.accessibilityLabel = @"KVNProgressStatusLabel";
 
 	// If HUD is already added to the view we just update the UI
 	if ([self.class isVisible]) {
